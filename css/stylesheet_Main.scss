@@ -1,0 +1,44 @@
+$lGrey: #E9ECE4;
+$lGeal: #C0DFD9;
+$blueGrey: #B4C2BF;
+$dGrey: #3B3A36;
+
+
+header img {
+	width: 100%;
+	position: relative;
+}
+
+.logo {
+	width: 20%;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top: 50px;
+}
+
+
+body {
+	border-top: 10px solid $dGrey;
+	background-color: papayawhip;
+	background-image: url(https://images.unsplash.com/photo-1422479763403-3aa672b25e0e?fit=crop&fm=jpg&h=700&ixjsv=2.0.0&ixlib=rb-0.3.5&q=80&w=1200);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+nav {
+	ul {
+		list-style: none;
+
+		li {
+			font-size: 20px;
+			text-decoration: none;
+		}
+
+	}
+}
+
+
+@import '_setup.scss';
